@@ -2,7 +2,7 @@ import type { AxiosError, AxiosRequestConfig } from 'axios'
 import axios from 'axios'
 
 const instance = axios.create({
-  baseURL: import.meta.env.VITE_URL,
+  baseURL: 'https://xiaofeishu.eyunnet.com/',
 })
 
 instance.interceptors.response.use(
